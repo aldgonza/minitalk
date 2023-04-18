@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   client.c                                           :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aldgonza <aldgonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/17 17:21:17 by aldgonza          #+#    #+#             */
-/*   Updated: 2023/04/17 17:26:46 by aldgonza         ###   ########.fr       */
+/*   Created: 2023/04/18 17:41:21 by aldgonza          #+#    #+#             */
+/*   Updated: 2023/04/18 17:42:08 by aldgonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minitalk.h"
+#include "../../include/minitalk.h"
 
-int ft_client(int argv, char **argc)
+int main()
 {
-    return(0);
+    ft_server();
+    return (0);
 }
