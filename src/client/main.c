@@ -6,14 +6,14 @@
 /*   By: aldgonza <aldgonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 17:14:52 by aldgonza          #+#    #+#             */
-/*   Updated: 2023/04/18 17:33:37 by aldgonza         ###   ########.fr       */
+/*   Updated: 2023/06/07 18:32:56 by aldgonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/minitalk.h"
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-    ft_client(argc, argv);
-    return(0);
+	ft_client(argc, argv);
+	return (0);
 }
